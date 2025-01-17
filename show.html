@@ -1,0 +1,203 @@
+<section class="sec5">
+    <span class="span-img-sec5">
+      <img class="img-sec5" src="img/img-sec5.webp" alt="">
+    </span>
+    <div class="container-sec5">
+      <div class="about-sec5">
+        <h1 class="h1-sec5">Коротко о нас</h1>
+        <div class="p-text">
+          <span>
+            Мы рады, что Вы сделали правильный выбор, ведь, создав сайт, Ваша компания приобрела свое лицо в безграничном пространстве Интернет! Надеемся, что благодаря этому сайту Ваши потенциальные клиенты будут легко находить Вас в сети Интернет, и сайт в скором времени начнет приносить прибыль.
+            <br><br>
+            В этом блоке мы рекомендуем разместить информацию о Вашей организации, подчеркнуть ее значимость и надежность на рынке оказываемых услуг или предлагаемых товаров.
+            <span id="dots"></span><span id="more"><br><br>
+              Примечание. Обращаем Ваше внимание, что текстовая информация на сайте должна быть индивидуальной, не скопированной с других интернет-ресурсов, о чем указано в рекомендациях Яндекса: «Мы стараемся не индексировать или не ранжировать высоко сайты, копирующие информацию с других ресурсов и не создающие оригинального контента или сервиса».
+              </span>
+            </span>
+        </div>
+        <div class="div-show">
+          <div class="show-spoiler">
+            <span class="span-show" id="btn" onclick="readMore()">Показать</span>
+          </div>
+          <div class="div-svg">
+            <svg id="btn" xmlns="http://www.w3.org/2000/svg" width="17" height="10" viewBox="0 0 17 10" data-prefix="iyh9p4gx0"><path d="M17 1.666l-6.8 6.667L8.5 10 0 1.667 1.7 0l6.8 6.665L15.3 0z" fill-rule="evenodd" class="path-ikiqebi0g"></path>
+              <path d="M17 1.666l-6.8 6.667L8.5 10 0 1.667 1.7 0l6.8 6.665L15.3 0z" fill-rule="evenodd" class="path"></path>
+            </svg>
+          </div>
+        </div>
+        <div class="div-text-sec5">
+          <span>В нашем штате работают исключительно аттестованные и<br> квалифицированные бухгалтеры</span>
+        </div>
+          <a href="#" class="button btn-sec5">
+            <span class="span-btn-sec5">ПОДРОБНЕЕ</span>
+          </a>
+      </div>
+    </div>
+</section>
+<style>
+/* Основные стили секции sec5 */
+.sec5 {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Изображение */
+.span-img-sec5 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+/* Контейнер с текстом */
+.container-sec5 {
+  max-width: 1200px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-sec5 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Заголовок */
+.h1-sec5 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Текст */
+.p-text span {
+  font-size: 1.1em;
+  color: #666;
+  line-height: 1.8;
+}
+
+/* "Показать больше" */
+.div-show {
+  margin-top: 20px;
+}
+
+.show-spoiler {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: #007bff;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.show-spoiler:hover {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+/* SVG стрелка */
+#btn-svg {
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+#btn-svg path {
+  fill: #007bff;
+}
+
+/* Текст с дополнительной информацией */
+#more {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+/* Плавное появление текста */
+#more.show {
+  display: inline;
+  opacity: 1;
+}
+
+/* Кнопка для "ПОДРОБНЕЕ" */
+.btn-sec5 {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-sec5:hover {
+  background-color: #0056b3;
+}
+
+.span-btn-sec5 {
+  color: white;
+}
+
+/* Дополнительный текст */
+.div-text-sec5 {
+  margin-top: 20px;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.div-text-sec5 span {
+  font-weight: 500;
+}
+
+/* Мобильные стили */
+@media (max-width: 768px) {
+  .h1-sec5 {
+    font-size: 2em;
+  }
+
+  .p-text span {
+    font-size: 1em;
+  }
+
+  .btn-sec5 {
+    font-size: 0.9em;
+    padding: 8px 16px;
+  }
+}
+
+
+</style>
+<script>
+    function readMore() {
+    let dots = document.getElementById("dots");
+    let more = document.getElementById("more");
+    let btnText = document.getElementById("btn-text");
+    let btnSvg = document.getElementById("btn-svg");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Показать";
+        more.style.display = "none";
+        btnSvg.style.transform = "rotate(0deg)";
+    } else {
+        dots.style.display = "none";
+        more.style.display = "inline";
+        btnText.innerHTML = "Скрыть";
+        btnSvg.style.transform = "rotate(180deg)";
+    }
+}
+
+</script>

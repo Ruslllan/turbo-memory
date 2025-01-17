@@ -1,0 +1,91 @@
+body{
+    overflow: hidden;
+    overflow-x: hidden;
+}
+.sec3 {
+    display: block;
+    width: 100%;
+    position: relative;
+    padding-left: 0%;
+    padding-right: 0%;
+    overflow-x: visible;
+    overflow-y: visible;
+}
+.sec3-container{
+    padding-bottom: 73px;
+}
+.container-sec3{
+    max-width: 1400px;
+    height: auto;
+    position: absolute;
+
+
+
+}
+.span-img-sec3{
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    width: 60%;
+    height: 700px;
+    margin-left: 65.5%;
+    margin-right: 0px;
+    justify-content: flex-start;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    z-index: 1;
+}
+.img-sec3-1{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.about{
+    margin-left: 50px;
+    padding-top: 70px;
+    padding-right: 70px;
+    max-width: 840px;
+    width: 840px;
+    height: 590px;
+    position: absolute;
+}
+.block-about1{
+    padding-top: 40px;
+    padding-bottom:40px ;
+    display: block;
+    flex-shrink: 0;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+.block-about2{
+    padding-bottom:40px ;
+
+}
+.blok1-img{
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    line-height: normal;
+}
+.blok2-img{
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    line-height: normal;
+}
+.blok1-span{
+    box-sizing: border-box;
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Rubik',sans-serif;
+    color: #2C67F5;
+    line-height: normal;
+}
+.blok1-span2{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 300;
+}
